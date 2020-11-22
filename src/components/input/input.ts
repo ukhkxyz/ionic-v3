@@ -611,7 +611,7 @@ export class TextInput extends BaseInput<string> implements IonicFormInput {
       // focus this input if the pointer hasn't moved XX pixels
       // and the input doesn't already have focus
       if (!hasPointerMoved(8, this._coord, endCoord) && !this.isFocus()) {
-        ev.preventDefault();
+        //ev.preventDefault();
         ev.stopPropagation();
 
         // begin the input focus process
